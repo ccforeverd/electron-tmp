@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <title></title>
+  <style>
+    body { margin: 0; }
+    .container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Electron Project</h1>
+    <h4>We are using:</h4>
+    <ul>
+      <li>Node.js <span id="node-version"></span></li>
+      <li>Chromium <span id="chrome-version"></span></li>
+      <li>Electron <span id="electron-version"></span></li>
+      <li>Vue <span id="vue-version"></span></li>
+      <li>Vuex <span id="vuex-version"></span></li>
+      <li>VueRouter <span id="vue-router-version"></span></li>
+    </ul>
+    <h2>Loading...<span id="loading-number">5</span>...</h2>
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
