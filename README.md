@@ -1,24 +1,36 @@
-# electron-tmp
+# ElectronTmp
 
-## Project setup
+a template for electron vue.
 
-``` bash
-yarn install
-```
-
-### Compiles and hot-reloads for development
+## Project Setup
 
 ``` bash
-yarn serve
+yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/ -g
+
+yarn
 ```
 
-### Compiles and minifies for production
+### Development
+
+- terminal(1): start webpack
+
+  ``` bash
+  yarn serve
+  ```
+
+- terminal(2): start electron
+
+  ``` bash
+  yarn start
+  ```
+
+### Production
 
 ``` bash
 yarn build
 ```
 
-### Run your unit tests
+### Unit Tests
 
 ``` bash
 yarn test:unit
@@ -30,6 +42,6 @@ yarn test:unit
 yarn lint
 ```
 
-### Customize configuration
+---
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2020-04-15 by [ccforeverd](mailto:zh1045456074@163.com).
