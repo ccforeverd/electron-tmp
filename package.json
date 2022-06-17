@@ -16,7 +16,7 @@
   "main": "app/main.js",
   "dependencies": {
     "core-js": "^3.6.4",
-    "electron": "^8.2.2",
+    "electron": "^15.5.5",
     "element-ui": "^2.4.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
